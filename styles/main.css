@@ -1,0 +1,48 @@
+@import 'base.css';
+@import 'particles/_index.css';
+
+/* @to-do: move to particles */
+
+/* column.css */
+.column-wrapper {
+    background: #FAFAFA;
+    display: flex;
+    height: calc(100vh - 96px);
+    min-height: 100px;
+    min-width: 100px; 
+    padding: 1rem 3rem;
+}
+.column {
+    background: #FFFFFF;
+    border: .1rem solid #EEEEEE;
+    border-radius: .3rem;
+    margin: 1rem;
+    min-height: 50px;
+    overflow: hidden;
+    width: 30rem;
+}
+    .column-heading {
+        background: #3F51B5;
+        color: #FFFFFF;
+        font-size: 1.2rem;
+        font-weight: 600;
+        padding: .5rem 0 .5rem 1rem;      
+    }
+    .column:nth-of-type(even) .column-heading {
+        background-color: #8BC34A;
+    }
+
+/* card.css */
+.card {
+    border: 1px solid #E0E0E0;
+    border-radius: inherit;
+    box-shadow: #EEEEEE 0 0 5px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    margin: .8rem 1rem; 
+    padding: 1rem;    
+    transition: transform .3s ease-in-out;
+}
+.card:hover {
+    transform: scale(1.02);
+}

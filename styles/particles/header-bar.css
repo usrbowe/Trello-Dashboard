@@ -1,0 +1,11 @@
+.header-bar {
+    align-items: center;
+    background-color: #E91E63;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem .5rem;
+}
+
+.header-bar-button {
+    margin-right: 1rem;
+}
